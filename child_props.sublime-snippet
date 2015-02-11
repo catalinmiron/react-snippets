@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[describe('${1:child_name}', function() {
+  var props;
+
+  beforeEach(function() {
+    props = TestHelpers.getChildProps(component, '${1:child_name}');
+  });
+
+  it('${2:description}', function() {
+    ${0:// body...}
+  });
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>childprops</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>
