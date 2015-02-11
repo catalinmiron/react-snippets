@@ -1,0 +1,30 @@
+<snippet>
+    <content><![CDATA[var Component = require('/components/${1:component_name}.jsx'),
+    fixture = require('${2:fixture_name}');
+
+var TestUtils = require('react/addons').addons.TestUtils,
+    \$ = require('jquery');
+
+
+describe('${3:ComponentName}', function() {
+  describe('${4:Render}', function() {
+    var component, \$component, loadChildStub;
+
+    beforeEach(function() {
+      loadChildStub = TestHelpers.stubMethod(Component, 'loadChild', null);
+
+      component = TestHelpers.render(Component, fixture, this.container);
+      \$component = \$(component.getDOMNode());
+    });
+
+    it('${5:description}', function() {
+      ${0:// body...}
+    });
+  });
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>renderjs</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>
