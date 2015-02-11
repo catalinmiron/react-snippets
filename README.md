@@ -10,10 +10,11 @@ This is a [Sublime Text][sublime] package which includes a bunch of handy snippe
 
 This package is not in [wbond's][package_control] repository, so you gotta use Terminal and git to install it. 
 
+
 I'm using [Sublime 3][sublime3] and it works like a charm.
 
 #### Mac OS ####
-
+    git clone https://github.com/catalinmiron/react-snippets ~/Library/Application Support/Sublime Text 3/Packages
     cd "~/Library/Application Support/Sublime Text 3/Packages"
     
 #### Windows 7 ####
