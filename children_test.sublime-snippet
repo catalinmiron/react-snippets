@@ -15,9 +15,18 @@ describe('${3:ComponentName}', function() {
       component = TestHelpers.render(Component, fixture, this.container);
     });
 
-    it('${5:description}', function() {
-      ${0:// body...}
+    describe('${5:child_name}', function() {
+      var props;
+
+      beforeEach(function() {
+        props = TestHelpers.getChildProps(component, '${5:child_name}');
+      });
+
+      it('${6:description}', function() {
+        ${0:// body...}
+      });
     });
+
   });
 });
 ]]></content>
