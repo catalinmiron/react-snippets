@@ -15,7 +15,7 @@ I'm using [Sublime 3][sublime3] and it works like a charm.
 
 #### Mac OS ####
     git clone https://github.com/catalinmiron/react-snippets ~/Library/Application Support/Sublime Text 3/Packages
-    cd "~/Library/Application Support/Sublime Text 3/Packages"
+
     
 #### Windows 7 ####
     
