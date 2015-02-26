@@ -23,7 +23,7 @@ I'm using [Sublime 3][sublime3] and it works like a charm.
     
 #### Inside _Packages_ ####
     
-    git clone https://github.com/bitbonsai/sublime-jquery-snippets.git "jQuery-Snippets"
+    git clone https://github.com/bitbonsai/sublime-jquery-snippets.git "React-Snippets"
 
 
 [sublime]: http://www.sublimetext.com/
